@@ -4,38 +4,10 @@ A complete UI/UX redesign of [ElevenLabs.io](https://elevenlabs.io), reimagined 
 
 Built with Next.js 16, Tailwind CSS v4, and a real ElevenLabs Text-to-Speech integration.
 
-![Resonance OS cover](./public/cover.jpg)
+![Uploading cover.jpg…]()
 
----
 
-## What's inside
 
-Three flagship pages from the marketing site:
-
-- **Landing** — hero with a real audio-reactive TTS demo, product bento for all seven instruments, live-counting stats, developers band with multi-language code tabs, enterprise pillars, and a closing CTA.
-- **Voice Library** (`/voices`) — searchable, filterable directory where every card calls the real ElevenLabs API on click and renders the returned audio as a live frequency spectrum on its own canvas.
-- **Pricing** (`/pricing`) — five tier cards with a billing toggle and a sticky comparison matrix.
-
-The signature interaction is the **hero demo**: type any text, pick a voice, hit play, and the lime-green waveform pulses in real time to the actual ElevenLabs audio coming back from the server.
-
----
-
-## Design system
-
-| Token | Value | Role |
-|---|---|---|
-| `--background` | near-black `#0A0B0D` | App canvas |
-| `--foreground` | `#F2F4F7` | Primary text |
-| `--muted` | warm neutrals | Secondary surfaces and copy |
-| `--primary` | electric lime `#D4FF3A` | Signal accent, CTAs, waveform peaks |
-| `--accent` | warm coral `#FF6A3D` | Human-facing accents, talent badges |
-
-- **Typography** — Geist Sans for display and body, Geist Mono for telemetry, code, and timecodes. Tight tracking on display (`-0.035em` to `-0.045em`).
-- **Layout language** — 12-column grid with hairline section rules, register-mark corner ticks, generous vertical rhythm, sticky spec rails on detail surfaces, and a bento grid for the product matrix.
-- **Motion** — mechanical, never bouncy. Custom easing, scroll-reveal stagger via a single global `IntersectionObserver`, conic-gradient hover rings on bento cards, density-shifting header on scroll, and a 1px lime scroll-progress strip pinned to the top. `prefers-reduced-motion` is respected end-to-end.
-- **Accessibility** — WCAG AA contrast, semantic landmarks, full keyboard navigation, focus rings on the lime primary, `aria-label`s on icon-only buttons, no autoplay with sound.
-
----
 
 ## Tech stack
 
