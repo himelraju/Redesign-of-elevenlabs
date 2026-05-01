@@ -62,7 +62,13 @@ lib/
   voices.ts                 # Voice roster with real ElevenLabs voice IDs
   utils.ts                  # cn() helper
 ```
+### Add your ElevenLabs API key
 
+Create a `.env.local` file at the project root:
+
+```shellscript
+ELEVENLABS_API_KEY=sk_your_key_here
+```
 ## Getting started
 
 ### 1. Clone and install
