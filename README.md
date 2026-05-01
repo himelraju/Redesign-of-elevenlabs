@@ -4,7 +4,8 @@ A complete UI/UX redesign of [ElevenLabs.io](https://elevenlabs.io), reimagined 
 
 Built with Next.js 16, Tailwind CSS v4, and a real ElevenLabs Text-to-Speech integration.
 
-![Uploading cover.jpg…]()
+<img width="1024" height="1024" alt="cover" src="https://github.com/user-attachments/assets/443e406b-0589-42e5-a532-155a8489cc25" />
+
 
 
 
