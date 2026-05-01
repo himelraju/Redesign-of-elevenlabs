@@ -36,17 +36,6 @@ End-to-end and production-shaped:
 
 ---
 
-## Getting started
-
-### 1. Clone and install
-
-```bash
-git clone https://github.com/YOUR_USERNAME/elevenlabs-redesign.git
-cd elevenlabs-redesign
-pnpm install
-
-
-
 ## Project structure
 
 ```plaintext
@@ -73,3 +62,14 @@ lib/
   voices.ts                 # Voice roster with real ElevenLabs voice IDs
   utils.ts                  # cn() helper
 ```
+
+## Getting started
+
+### 1. Clone and install
+
+```bash
+git clone https://github.com/YOUR_USERNAME/elevenlabs-redesign.git
+cd elevenlabs-redesign
+pnpm install
+
+
