@@ -78,4 +78,10 @@ git clone https://github.com/YOUR_USERNAME/elevenlabs-redesign.git
 cd elevenlabs-redesign
 pnpm install
 
+### 3. Run the dev server
 
+```shellscript
+pnpm dev
+```
+
+Open [http://localhost:3000](http://localhost:3000).
