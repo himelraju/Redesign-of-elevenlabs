@@ -44,3 +44,11 @@ End-to-end and production-shaped:
 git clone https://github.com/YOUR_USERNAME/elevenlabs-redesign.git
 cd elevenlabs-redesign
 pnpm install
+
+### 2. Add your ElevenLabs API key
+
+Create a `.env.local` file at the project root:
+
+```shellscript
+ELEVENLABS_API_KEY=sk_your_key_here
+```
