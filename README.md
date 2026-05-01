@@ -44,3 +44,32 @@ End-to-end and production-shaped:
 git clone https://github.com/YOUR_USERNAME/elevenlabs-redesign.git
 cd elevenlabs-redesign
 pnpm install
+
+
+
+## Project structure
+
+```plaintext
+app/
+  api/tts/route.ts          # Server-only ElevenLabs proxy
+  voices/page.tsx           # Voice library route
+  pricing/page.tsx          # Pricing route
+  layout.tsx                # Root layout, fonts, RevealObserver
+  globals.css               # Theme tokens, motion keyframes, glow utilities
+  page.tsx                  # Landing page composition
+components/
+  site/
+    landing/                # Hero, products bento, stats, voices teaser, etc.
+    live-demo.tsx           # Hero TTS demo + audio graph
+    reactive-waveform.tsx   # Canvas waveform driven by AnalyserNode
+    voice-card.tsx          # Voice library card with live frequency painting
+    voice-library.tsx       # Searchable, filterable voice browser
+    pricing.tsx             # Tiered cards + comparison matrix
+    site-header.tsx         # Density-shifting header + scroll-progress strip
+    site-footer.tsx         # Status strip + sitemap
+    reveal-observer.tsx     # Global scroll-reveal IntersectionObserver
+  ui/                       # shadcn/ui primitives
+lib/
+  voices.ts                 # Voice roster with real ElevenLabs voice IDs
+  utils.ts                  # cn() helper
+```
