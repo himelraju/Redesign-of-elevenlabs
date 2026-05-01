@@ -85,3 +85,6 @@ pnpm dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000).
+
+Credits
+Built for the ElevenLabs × v0 2026
