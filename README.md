@@ -1,4 +1,5 @@
 # Resonance OS — A Futuristic ElevenLabs Redesign
+**Utilized ElevenLabs’ audio API for voice generation and developed the application using v0.app.**
 
 A complete UI/UX redesign of [ElevenLabs.io](https://elevenlabs.io), reimagined as the *operating system for synthetic sound*. **Resonance OS** feels like a control surface — telemetric, cinematic, instrumented.
 
