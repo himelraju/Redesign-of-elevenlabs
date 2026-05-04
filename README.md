@@ -1,6 +1,6 @@
 # Resonance OS — A Futuristic ElevenLabs Redesign
 
-A complete UI/UX redesign of [ElevenLabs.io](https://elevenlabs.io), reimagined as the *operating system for synthetic sound*. Where the original feels editorial, **Resonance OS** feels like a control surface — telemetric, cinematic, instrumented.
+A complete UI/UX redesign of [ElevenLabs.io](https://elevenlabs.io), reimagined as the *operating system for synthetic sound*. **Resonance OS** feels like a control surface — telemetric, cinematic, instrumented.
 
 Built with Next.js 16, Tailwind CSS v4, and a real ElevenLabs Text-to-Speech integration.
 
